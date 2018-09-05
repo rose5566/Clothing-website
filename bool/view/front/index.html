@@ -1,0 +1,165 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="ECSHOP v2.7.2" name="Generator">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title></title>
+<link href="favicon.ico" rel="shortcut icon">
+<link type="image/gif" href="animated_favicon.gif" rel="icon">
+<link type="text/css" rel="stylesheet" href="./view/front/css/style.css">
+</head>
+<body>
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+<div class="blank"></div>
+<div class="block">
+<div id="adSmall">
+</div>
+</div>
+<div class="blank"></div><div class="block clearfix">
+<div class="layout_1">
+        <div class="layout_left">
+        	<div class="lib_adv_1">
+        	<a target="_blank" href="goods.php?goods_id=63"><img src="./Model/images/big1.jpg"></a>            </div>
+            <div class="blank"></div>
+            <div>
+            	
+                 
+                
+            </div>
+        </div>
+        <div class="layout_right">
+            
+        
+<div class="shop_news">
+            	<div class="lib_top">最新動態</div>
+
+                <div class="lib_down"></div>
+            </div>
+            <div class="blank"></div>
+
+       
+        </div>
+    </div>
+  
+<div style="float:left;width:100%;" id="rec_best" class="shop_right_lib"><div class="np_index_content_part">
+  <div id="itemNew" class="itemTit">
+       <div><img src=""><font size='50'>新品</font></div>
+       <div class="more"><a href="#">更多請點擊 &gt;&gt;</a></div>
+  </div>
+  
+  
+  
+  <div class="blank"></div>
+  
+  <div class="lib_mid">
+                	<div id="show_new_area" class="tabItem">
+                                    	<div class="grid">
+                            <?php foreach($newlist as $g) { ?>
+                                            <div class="goodsItem">
+                        	<div class="goodsPic">
+                        	<a class="preview" href="goods.php?goods_id=<?php echo $g['goods_id']; ?>"><img alt="<?php echo $g['goods_name']; ?>" src="<?php echo $g['thumb_img']; ?>"></a>
+                            </div>
+                            <div class="goodsInfo">
+                            	<div class="goodsSn"><a class="f_white" title="<?php echo $g['goods_name']; ?>" href="goods.php?goods_id=<?php echo $g['goods_id']; ?>"><?php echo mb_substr($g['goods_name'],0,12,'UTF-8'),'...'; ?></a></div>
+                            	
+                            	<span class="f_gray">市場價：</span><font class="f_market">￥<?php echo $g['market_price']; ?>元</font><br>
+                                商品價：<font class="f_shop">￥<?php echo $g['shop_price']; ?>元                                                              </font>
+                            </div>
+                        </div>
+                        <?php } ?>
+                      
+                    </div>
+                    					</div>                   
+                </div>
+</div></div>
+<div class="blank"></div>
+  
+<div style="float:left;width:100%;" id="rec_best" class="shop_right_lib"><div class="np_index_content_part">
+ <div id="itemBest" class="itemTit">
+      <div><img src=""><font size='50'>女裝</font></div>
+      <div class="more"><a href="#">更多請點擊 &gt;&gt;</a></div>
+  </div>
+  <div class="blank5"></div>
+  <div class="cat_ads_box clearfix">
+   <div class="f_l clearfix"><a target="_blank" href="goods.php?goods_id=208"><img width="445" height="300" src="./Model/images/girl1.jpg"></a></div>
+   <div class="f_m clearfix"><a target="_blank" href="goods.php?goods_id=299"><img width="280" height="300" src="./Model/images/girl2.jpg"></a></div>
+
+  </div>
+  <div class="blank"></div>
+    <div class="lib_mid">                
+                	<div class="tabItem">
+                	<div class="grid">
+                    
+                       
+     
+                            <?php foreach($felist as $g) { ?>
+                                            <div class="goodsItem">
+                        	<div class="goodsPic">
+                        	<a class="preview" href="goods.php?goods_id=<?php echo $g['goods_id']; ?>"><img alt="<?php echo $g['goods_name']; ?>" src="<?php echo $g['thumb_img']; ?>"></a>
+                            </div>
+                            <div class="goodsInfo">
+                            	<div class="goodsSn"><a class="f_white" title="<?php echo $g['goods_name']; ?>" href="goods.php?goods_id=<?php echo $g['goods_id']; ?>"><?php echo mb_substr($g['goods_name'],0,12,'UTF-8'),'...'; ?></a></div>
+                            	
+                            	<span class="f_gray">市場價：</span><font class="f_market">￥<?php echo $g['market_price']; ?>元</font><br>
+                                商品價：<font class="f_shop">￥<?php echo $g['shop_price']; ?>元                                                              </font>
+                            </div>
+                        </div>
+                        <?php } ?> 	
+                    	
+                   
+                                    	
+                    	
+   
+                        
+                    </div>
+					</div>                   
+                </div>
+ </div></div>
+<div class="blank"></div>
+<div style="float:left;width:100%;" id="rec_best" class="shop_right_lib"><div class="np_index_content_part">
+ <div id="itemBest" class="itemTit">
+      <div><img src=""><font size='50'>男裝</font></div>
+      <div class="more"><a href="#">更多請點擊 &gt;&gt;</a></div>
+  </div>
+  <div class="blank5"></div>
+  <div class="cat_ads_box clearfix">
+   <div class="f_l clearfix"><a target="_blank" href="goods.php?goods_id=317"><img width="445" height="300" src="./Model/images/man1.jpg"></a></div>
+   <div class="f_m clearfix"><a target="_blank" href="goods.php?goods_id=227"><img width="280" height="300" src="./Model/images/man2.jpg"></a></div>
+
+  </div>
+  <div class="blank"></div>
+    <div class="lib_mid">                
+                	<div class="tabItem">
+                	<div class="grid">
+                            
+                            <?php foreach($manlist as $g) { ?>
+                                            <div class="goodsItem">
+                        	<div class="goodsPic">
+                        	<a class="preview" href="goods.php?goods_id=<?php echo $g['goods_id']; ?>"><img alt="<?php echo $g['goods_name']; ?>" src="<?php echo $g['thumb_img']; ?>"></a>
+                            </div>
+                            <div class="goodsInfo">
+                            	<div class="goodsSn"><a class="f_white" title="<?php echo $g['goods_name']; ?>" href="goods.php?goods_id=<?php echo $g['goods_id']; ?>"><?php echo mb_substr($g['goods_name'],0,12,'UTF-8'),'...'; ?></a></div>
+                            	
+                            	<span class="f_gray">市場價：</span><font class="f_market">￥<?php echo $g['market_price']; ?>元</font><br>
+                                商品價：<font class="f_shop">￥<?php echo $g['shop_price']; ?>元                                                              </font>
+                            </div>
+                        </div>
+                        <?php } ?> 	          
+                    </div>
+					</div>                   
+                </div>
+ </div></div>
+<div class="blank"></div>
+
+<div class="blank"></div>
+	
+	
+	
+	
+    <div class="blank"></div>
+    
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>
+
+</body></html>

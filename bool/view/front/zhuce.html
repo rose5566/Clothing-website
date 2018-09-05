@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="ECSHOP v2.7.2">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+<title>用户中心</title>
+
+<link rel="shortcut icon" href="http://www.zhongyis.com/favicon.ico">
+<link rel="icon" href="http://www.zhongyis.com/animated_favicon.gif" type="image/gif">
+<link href="./view/front/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<body>
+
+<div class="blockfull">
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+      <script type="text/javascript">
+      //初始化主菜單
+		function sw_nav(obj,tag)
+		{
+
+			var subdivs = obj.getElementsByTagName("DIV");
+			var ifs = obj.getElementsByTagName("IFRAME");
+			
+			if(subdivs.length&amp;gt;0)
+			{
+
+				if(tag==1)
+				{
+					subdivs[0].style.display = "block";
+					ifs[0].style.display = "block";
+				}
+				else
+				{
+					subdivs[0].style.display = "none";	
+					ifs[0].style.display = "none";
+				}
+				
+			}
+		}
+
+      </script>
+      
+         <script type="text/javascript">
+		
+		&amp;lt;!--
+		function checkSearchForm()
+		{
+			if(document.getElementById('keyword').value)
+			{
+				return true;
+			}
+			else
+			{
+				alert("請輸入搜尋關鍵詞！");
+				return false;
+			}
+		}
+		--&amp;gt;
+		
+		</script>
+       
+
+<div class="blank"></div></div>
+
+
+<div class="block block1">
+  當前位置: <a href="#">首頁</a> <code>&gt;</code> 用戶中心 <div class="blank"></div>
+
+
+
+
+
+            <div class="usBox">
+  <div class="usBox_2 clearfix">
+   <div class="logtitle3"></div>
+    <form style="padding-left:200px;" action="regAct.php" method="post" name="formUser">
+      <table width="100%" cellspacing="3" cellpadding="5" border="0" align="left">
+        <tbody><tr>
+          <td width="13%" align="right">用戶名</td>
+          <td width="87%">
+          <input type="text" name="username" size="25" id="username" onblur="is_registered(this.value);" class="inputBg">
+            <span id="username_notice" style="color:#FF0000"> *</span>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">email</td>
+          <td>
+          <input type="text" name="email" size="25" id="email" onblur="checkEmail(this.value);" class="inputBg">
+            <span id="email_notice" style="color:#FF0000"> *</span>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">密碼</td>
+          <td>
+          <input type="password" name="passwd" id="password1" onblur="check_password(this.value);" onkeyup="checkIntensity(this.value)" class="inputBg" style="width:179px;">
+            <span style="color:#FF0000" id="password_notice"> *</span>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">確認密碼</td>
+          <td>
+          <input type="password" name="repasswd" id="conform_password" class="inputBg" style="width:179px;">
+            <span style="color:#FF0000" id="conform_password_notice"> *</span>
+          </td>
+        </tr>
+                     
+        <tr>
+          <td>&nbsp;</td>
+          <td align="left">
+          <input type="submit" value="" class="us_Submit_reg">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+                 <tr>
+                    <td>&nbsp;</td>
+          <td align="left"><a href="#" class="f6">密碼問題找回密碼</a>   <a href="#" class="f6">註冊郵件找回密碼</a></td>
+                  </tr>
+
+      </tbody></table>
+    </form>
+  </div>
+</div>
+
+
+
+    
+
+    
+
+    
+
+
+
+ <div class="blank"></div>
+    
+
+        	
+
+
+
+
+ 	
+</div>
+<div class="blank"></div>
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>>
+</body>
+</html>

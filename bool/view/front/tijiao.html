@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="ECSHOP v2.7.2" name="Generator">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="" name="Keywords">
+<meta content="" name="Description">
+
+<title>購物流程</title>
+
+<link href="favicon.ico" rel="shortcut icon">
+<link type="image/gif" href="animated_favicon.gif" rel="icon">
+<link type="text/css" rel="stylesheet" href="./view/front/css/style.css">
+
+</head>
+
+<body>
+
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+
+<div class="blank"></div>
+
+<div class="block">  
+當前位置: <a href=".">首頁</a> <code>&gt;</code> 購物流程 <div class="blank"></div>
+  
+                  <form onsubmit="return checkConsignee(this)" id="theForm" name="theForm" method="post" action="flow.php?act=done">
+        <div class="flowBox">
+<h6><span>收貨人信息</span></h6>
+<table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
+    
+  <tbody><tr>
+    <td bgcolor="#ffffff">配送區域:</td>
+    <td bgcolor="#ffffff" colspan="3">
+    <input type="text" name="zone" />
+    (必填) </td>
+  </tr>
+    <tr>
+    <td bgcolor="#ffffff">收貨人姓名:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="consignee_0" class="inputBg" name="reciver">
+    (必填) </td>
+    <td bgcolor="#ffffff">電子郵件地址地址:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="email_0" class="inputBg" name="email">
+    (必填)</td>
+  </tr>
+    
+  <tr>
+    <td bgcolor="#ffffff">詳细地址:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="address_0" class="inputBg" name="address">
+    (必填)</td>
+    <td bgcolor="#ffffff">郵政編號:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="zipcode_0" class="inputBg" name="zipcode"></td>
+  </tr>
+    <tr>
+    <td bgcolor="#ffffff">電話:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="tel_0" class="inputBg" name="tel">
+    (必填)</td>
+    <td bgcolor="#ffffff">手機:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="mobile_0" class="inputBg" name="mobile"></td>
+  </tr>
+    
+  <tr>
+    <td bgcolor="#ffffff">最佳送貨時間:</td>
+    <td bgcolor="#ffffff"><input type="text" value="" id="best_time_0" class="inputBg" name="best_time"></td>
+  </tr>
+
+</tbody></table>
+</div> 
+
+        <div class="flowBox">
+        <h6><span>商品列表</span><a class="f6" href="flow.php">修改</a></h6>
+        <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
+            <tbody><tr>
+              <th bgcolor="#ffffff">商品名稱</th>
+              <th bgcolor="#ffffff"></th>
+                            <th bgcolor="#ffffff">市場價</th>
+                            <th bgcolor="#ffffff">本店價</th>
+              <th bgcolor="#ffffff">購買數量</th>
+              <th bgcolor="#ffffff">小計</th>
+            </tr>
+            <?php foreach($items as $item) { ?>
+                        <tr>
+              <td bgcolor="#ffffff">
+                        <a class="f6" target="_blank" href="goods.php?id=313"><?php echo $item['name'];?></a>
+                                                  </td>
+              <td bgcolor="#ffffff"><br>
+</td>
+                            <td bgcolor="#ffffff" align="right">￥<?php echo $item['market_price'];?>元</td>
+                            <td bgcolor="#ffffff" align="right">￥<?php echo $item['price'];?>元</td>
+              <td bgcolor="#ffffff" align="right"><?php echo $item['num'];?></td>
+              <td bgcolor="#ffffff" align="right">￥<?php echo $item['num'] * $item['price'];?>元</td>
+            </tr>
+             <?php } ?>
+                                 <tr>
+              <td bgcolor="#ffffff" colspan="7">
+                            購物金額小計 ￥<?php echo $total;?>元，比市場價 ￥<?php echo $market_total;?>元 節省了 ￥<?php echo $discount;?>元 (<?php echo $rate;?>%)              </td>
+            </tr>
+                      </tbody></table>
+      </div>
+      <div class="blank"></div>
+      
+                <div class="flowBox">
+    <h6><span>支付方式</span></h6>
+    <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center" id="paymentTable">
+            <tbody><tr>
+              <th width="5%" bgcolor="#ffffff">&nbsp;</th>
+              <th width="20%" bgcolor="#ffffff">名稱</th>
+              <th bgcolor="#ffffff">訂購描述</th>
+              <th width="15%" bgcolor="#ffffff">手續費</th>
+            </tr>
+                        
+            <tr>
+              <td valign="top" bgcolor="#ffffff"><input type="radio" disabled="true" onclick="selectPayment(this)" iscod="1" value="3" name="payment"></td>
+              <td valign="top" bgcolor="#ffffff"><strong>貨到付款</strong></td>
+              <td valign="top" bgcolor="#ffffff">商店:seven7、全家</td>
+              <td valign="top" bgcolor="#ffffff" align="right"><span id="ECS_CODFEE">￥0.00元</span></td>
+            </tr>
+                        
+            <tr>
+              <td valign="top" bgcolor="#ffffff"></td>
+              <td valign="top" bgcolor="#ffffff"><strong></strong></td>
+              <td valign="top" bgcolor="#ffffff"></td>
+              <td valign="top" bgcolor="#ffffff" align="right"></td>
+            </tr>
+                      </tbody></table>
+    </div>
+                 
+
+         
+
+      
+    <div class="blank"></div>
+    <div class="flowBox">
+    <h6><span>費用總計</span></h6>
+          <div id="ECS_ORDERTOTAL">
+<table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#e5e5e5" align="center">
+    <tbody><tr>
+
+  </tr>
+    <tr>
+    <td bgcolor="#ffffff" align="right">
+      商品總價: <font class="f_orange_bold">￥<?php echo $total; ?>元</font>
+                                              </td>
+  </tr>
+    <tr>
+    <td bgcolor="#ffffff" align="right"> 應付款金額: <font class="f_orange_bold">￥<?php echo $total; ?>元</font>
+  </td>
+  </tr>
+</tbody></table>
+</div>           <div align="center" style="margin:8px auto;">
+            <input type="button" src="" value='提交' />
+            <input type="hidden" value="done" name="step">
+            </div>
+    </div>
+    </form>
+        
+                
+
+
+
+</div>
+<div class="blank"></div>
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>
+
+</body></html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="ECSHOP v2.7.2">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+<title>用戶中心</title>
+
+<link rel="shortcut icon" href="http://www.zhongyis.com/favicon.ico">
+<link rel="icon" href="http://www.zhongyis.com/animated_favicon.gif" type="image/gif">
+<link href="./view/front/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<div class="blockfull">
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+
+<div class="blank"></div>
+</div>
+
+
+<div class="block block1">
+  當前位置: <a href="#">首頁</a> <code>&gt;</code> 用戶中心 <div class="blank"></div>
+
+
+<div class="usBox clearfix">
+  <div class="usBox_1 f_l">
+   <div class="logtitle"></div>
+   <div style="color:#999; padding:30px 20px 10px 30px;">已註冊用戶請從這裡登陸</div>
+   <form method="post" action="login.php" name="formLogin">
+        <table width="100%" cellspacing="5" cellpadding="3" border="0" align="left" class="user_table">
+          <tbody><tr>
+            <td width="15%" align="right">用戶名</td>
+            <td width="85%"><input type="text" class="inputBg" name="username" value=""></td>
+          </tr>
+          <tr>
+            <td align="right">密碼</td>
+            <td>
+            <input type="password" class="inputBg" name="passwd">
+            </td>
+          </tr>
+                    <tr>
+            <td colspan="2"><input type="checkbox" id="remember" name="remember" value="1"><label for="remember">記住用戶名。</label></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td align="left">
+            <input type="hidden" value="act_login" name="act">
+            <input type="submit" class="us_Submit" value="" name="submit">
+			
+            </td>
+          </tr>
+	  <tr><td></td>
+      
+      
+      <td style="padding-top:80px;"><a class="f3" href="#">密碼問題找回密碼</a>&nbsp;&nbsp;&nbsp;<a class="f3" href="#">註冊郵件找回密碼</a></td></tr>
+      </tbody></table>
+    </form>
+    <div class="blank"></div>
+  </div>
+  <div class="usTxt">
+  <div class="regtitle"></div>
+  <div style="padding-left:50px; padding-top:25px;">
+    <p style="color:#999">如果您不是會員，請註冊</p> <br>
+    <strong class="f4">友情提示：</strong><br>
+    不註冊為會員也可在本店購買商品<br>
+    但註冊之後您可以：<br>
+    1. 保存您的個人資料<br>
+    2. 收藏您關注的商品<br>
+    3. 享受會員積分制度<br>
+    4. 訂閱本店商品信息  <br>
+    <a href="reg.php"><img src=""><input type="button" value="註冊" /></a>
+  </div>
+   </div>
+</div>
+
+
+
+
+ <div class="blank"></div>
+
+ 	
+</div>
+<div class="blank"></div>
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>>
+
+</body>
+</html>

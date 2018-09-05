@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="ECSHOP v2.7.2">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+<title>購物流程</title>
+
+<link rel="shortcut icon" href="http://www.zhongyis.com/favicon.ico">
+<link rel="icon" href="http://www.zhongyis.com/animated_favicon.gif" type="image/gif">
+<link type="text/css" rel="stylesheet" href="./view/front/css/style.css">
+</head>
+
+<body>
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+<div class="blank"></div>
+
+<div class="block">  
+當前位置: <a href="#">首頁</a> <code>&gt;</code> 購物流程 <div class="blank"></div>
+
+  <div style=" border:1px solid #dcdfe5;padding:1px; padding-bottom:8px;" class="flowBox flowBox1">
+   
+        <form action="./images/jiesuan.htm" method="post" name="formCart" id="formCart">
+           <table width="100%" cellspacing="0" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
+            <tbody><tr>
+              <th style="background:#7a7f89; color:#333">商品名稱</th>
+                    <th style="background:#7a7f89; color:#333"></th>
+                                          <th style="background:#7a7f89; color:#333">市場價</th>
+                            <th style="background:#7a7f89; color:#333">本店價</th>
+              <th style="background:#7a7f89; color:#333">購買數量</th>
+              <th style="background:#7a7f89; color:#333">小計</th>
+              <th style="background:#7a7f89; color:#333">操作</th>
+            </tr>
+            <?php foreach($items as $item) { ?>
+
+                        <tr>
+              <td bgcolor="#ffffff" align="center">
+                                                      <a target="_blank" href="#"><img border="0" title="<?php echo $item['name'];?>" src="<?php echo $item['thumb_img'];?>"></a><br>
+                    <a class="f6" target="_blank" href="#"><?php echo $item['name'];?></a>
+                                                                                    </td>
+                            <td bgcolor="#ffffff"><br>
+</td>
+                                          <td bgcolor="#ffffff" align="right">￥<?php echo $item['market_price'];?>元</td>
+                            <td bgcolor="#ffffff" align="right">￥<?php echo $item['price'];?>元</td>
+              <td bgcolor="#ffffff" align="right">
+                                <input type="text" onkeydown="showdiv(this)" style="text-align:center " class="inputBg" size="4" value="<?php echo $item['num'];?>" id="goods_number_449" name="goods_number[449]">
+                              </td>
+              <td bgcolor="#ffffff" align="right">￥<?php echo $item['price'] * $item['num'];?>元</td>
+              <td bgcolor="#ffffff" align="center">
+                <a class="f6" href="#">删除</a>
+                            </td>
+            </tr>
+            <?php } ?>
+                      </tbody></table>
+          <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
+            <tbody><tr>
+              <td bgcolor="#ffffff">
+                            購物金額小計 ￥<?php echo $total;?>元，比市場價 ￥<?php echo $market_total;?>元 節省了 ￥<?php echo $discount;?>元 (<?php echo $rate;?>%)              </td>
+              <td bgcolor="#ffffff" align="right">
+                <!--input type="button" onclick="location.href='flow.php?act=clear'" class="bnt_blue_1" value="清空購物車"-->
+                <a href="flow.php?act=clear">清空購物車</a>
+                <input type="submit" value="" class="bnt_blue_1" name="submit">
+              </td>
+            </tr>
+          </tbody></table>
+          <input type="hidden" value="update_cart" name="step">
+        </form>
+        <table width="100%" cellspacing="0" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
+          <tbody><tr>
+            <td bgcolor="#ffffff"><a href="goods.php"><input type='button' value='繼續購物'></a></td>
+            <td bgcolor="#ffffff" align="right"><a href="flow.php?act=tijiao"><img alt="checkout" src="./view/front/images/checkout.gif"></a></td>
+          </tr>
+        </tbody></table>
+       
+    </div>
+    <div class="blank5"></div>
+  
+
+</div>
+<div class="blank"></div>
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="ECSHOP v2.7.2">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title><?php echo $category['cat_name'];?></title>
+<link rel="shortcut icon" href="http://www.zhongyis.com/favicon.ico">
+<link rel="icon" href="http://www.zhongyis.com/animated_favicon.gif" type="image/gif">
+<link type="text/css" rel="stylesheet" href="./view/front/css/style.css">
+<link href="./view/front/css/bw.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="blockfull">
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+<div class="blank"></div>
+</div>
+<div id="mainbox" class="block clearfix">
+	<div class="layout_2">
+    	<div class="layout_left">
+       		
+<div class="cate_tree">
+            	<div class="lib_top">產品分類</div>
+                <div class="lib_mid">
+                	<ul>
+                    <?php foreach($sort as $c) { ?>
+                                        	<li class="cate_level_<?php echo $c['lev'];?>"><a href="category.php?cat_id=<?php echo $c['cat_id'];?>"><?php echo $c['cat_name'];?></a></li>
+                    <?php } ?>
+
+                                                   
+                    </ul>
+                </div>
+                <div class="lib_down"></div>
+            </div>
+            <div class="blank"></div> <div class="shop_left_lib">
+
+ 
+</div>
+<div class="blank5"></div>
+ 
+            <div class="blank"></div>
+
+  
+        	
+        </div>
+        
+        <div class="layout_right">
+        <div class="cat_ad">
+ </div>
+   
+         
+  
+            當前位置: <a href="index.php">首頁</a> 
+            <?php foreach($nav as $c) { ?>
+            <code>&gt;</code> <a href="category.php?cat_id=<?php echo $c['cat_id'];?>"><?php echo $c['cat_name'];?></a>
+            <?php } ?>
+            
+            <div class="blank"></div>
+    
+           
+           
+            <div class="shop_right_lib_comm">
+            	<div class="innerbox goods_list clearfix">
+                  
+ <div style="height:20px; padding:0; padding:3px;" class="switch_dispstyle clearfix">
+  <form name="listform" class="sort" method="GET">
+  <div class="f_l">
+  顯示方式：
+  <a onclick="javascript:display_mode('list')" href="#"><img alt="" src="./view/front/images/display_mode_list.gif"></a>
+  <a onclick="javascript:display_mode('grid')" href="#"><img alt="" src="./view/front/images/display_mode_grid_act.gif"></a>
+  <a onclick="javascript:display_mode('text')" href="#"><img alt="" src="./view/front/images/display_mode_text.gif"></a>&nbsp;&nbsp;
+  
+  </div>
+  
+  <div style=" padding:2px;" class="f_r">
+     
+  <a href="#"><img alt="按上架時間排序" src="./view/front/images/goods_id_default.gif"></a>
+  <a href="#"><img alt="按價格排序" src="./view/front/images/shop_price_default.gif"></a>
+  <a href="#"><img alt="按更新時間排序" src="./view/front/images/last_update_DESC.gif"></a>
+  <input type="hidden" value="17" name="category">
+  <input type="hidden" id="display" value="grid" name="display">
+  <input type="hidden" value="0" name="brand">
+  <input type="hidden" value="0" name="price_min">
+  <input type="hidden" value="0" name="price_max">
+  <input type="hidden" value="0" name="filter_attr">
+  <input type="hidden" value="1" name="page">
+  <input type="hidden" value="last_update" name="sort">
+  <input type="hidden" value="DESC" name="order">
+    
+    </div></form>
+</div>
+   
+    <form onsubmit="return compareGoods(this);" method="post" action="http://www.zhongyis.com/compare.php" name="compareForm">
+     
+ 
+  
+                		<div class="grid">
+       <?php foreach($goodslist as $g) { ?> 
+
+                           						                    	<div class="goodsItem">
+                        	<div class="goodsPic">
+							
+                        	<a href="goods.php?goods_id=<?php echo $g['goods_id'];?>">
+                            <img title="<?php echo $g['goods_name'];?>" class="zoom" src="<?php echo $g['thumb_img'];?>">
+                            <img alt="<?php echo $g['goods_name'];?>" src="<?php echo $g['thumb_img'];?>"></a>
+                            </div>
+                            <div class="goodsInfo">
+                            	
+                            	<div class="goodsSn"><a class="f_pname" title="<?php echo $g['goods_name']; ?>" href="goods.php?goods_id=<?php echo $g['goods_id'];?>"><?php echo mb_substr($g['goods_name'],0,10,'UTF-8'),'...'; ?></a></div>
+                                                            	 <span class="f_gray">市場價：</span><font class="f_market">￥<?php echo $g['market_price'];?>元</font><br>
+                                                                                                本店價：<font class="f_shop">￥<?php echo $g['shop_price'];?>元</font><br>
+                                                            </div>
+                        </div>
+                           
+
+                <?php } ?>           
+                                                          
+                    </div>
+        
+ 
+  
+    
+  
+  
+  
+    
+                 
+                 
+    </form>
+    
+  
+  <div class="blank"></div>
+<script language="JavaScript" type="Text/Javascript">
+&lt;!--
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+//--&gt;
+</script>
+<script type="text/javascript">
+window.onload = function()
+{
+  Compare.init();
+  fixpng();
+}
+var button_compare = '';
+var exist = "您已經選擇了%s";
+var count_limit = "最多只能選擇四個商品進行對比";
+var goods_type_different = "\"%s\"和已經選擇商品類型不同無法進行對比";
+var compare_no_goods = "您沒有選定任何需要比較的商品或者比較的商品數少於2個。";
+var btn_buy = "購買";
+var is_cancel = "取消";
+var select_spe = "請選擇商品屬性";
+</script>                    
+                </div>            
+            </div>
+            <div style=" height:25px; background:#e6eaf3;height:25px; overflow:hidden">
+<form method="get" action="http://www.zhongyis.com/category.php" name="selectPageForm">
+ <div class="pagebar" id="pager">
+  <span style="margin-right:10px;" class="f_l f6"></span>
+                      <?php echo $pagecode;?>
+            
+  <a href="http://www.zhongyis.com/category.php?id=17&amp;price_min=0&amp;price_max=0&amp;page=2&amp;sort=last_update&amp;order=DESC" class="next">下一页</a>    </div>
+</form>
+<script language="JavaScript" type="Text/Javascript">
+&lt;!--
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+//--&gt;
+</script>
+</div>
+        </div>
+    </div>
+    
+   
+    <div class="blank"></div>
+    
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>
+
+</body></html>

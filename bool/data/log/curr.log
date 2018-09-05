@@ -1,0 +1,2215 @@
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082179201'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_breif,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('12','NB2018082179201','3','0','0','','11','1','1','1','1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111','0','0','1534834544','model/images/201808/21/g85ofi.jpg','model/images/201808/21/goods_g85ofi.jpg','model/images/201808/21/thumb_g85ofi.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082123357'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('12','NB2018082123357','3','0','0','','11','1','1','1','','0','0','1534834688','model/images/201808/21/s8xz7b.jpg','model/images/201808/21/goods_s8xz7b.jpg','model/images/201808/21/thumb_s8xz7b.jpg')
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=26
+select * from category
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=4
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=2
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=2
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=9
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (9) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=9
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (9) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=2
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=11
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (11) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=12
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (12,13) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=2
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=9
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (9) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=11
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (11) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=12
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (12,13) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=11
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (11) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=6
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=6
+use light
+set names utf8
+select * from goods where goods_id=6
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=5
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+use light
+set names utf8
+select * from goods where goods_id=5
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+use light
+set names utf8
+select * from goods where goods_id=5
+use light
+set names utf8
+select * from goods where goods_id=5
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=5
+use light
+set names utf8
+select * from goods where goods_id=5
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=4
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+use light
+set names utf8
+select * from goods where goods_id=4
+use light
+set names utf8
+select * from goods where goods_id=4
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=4
+use light
+set names utf8
+select * from goods where goods_id=4
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=3
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=3
+use light
+set names utf8
+select * from goods where goods_id=3
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=7
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082148730'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('1','NB2018082148730','3','0','0','','11','10','1','1','11111111111111111111111111111111111111111111111111111','0','0','1534840977','model/images/201808/21/g9nmkz.jpg','model/images/201808/21/goods_g9nmkz.jpg','model/images/201808/21/thumb_g9nmkz.jpg')
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select * from goods where goods_id=27
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select * from goods where goods_id=27
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select * from goods where goods_id=27
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select * from goods where goods_id=27
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from category where cat_id=3
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082129711'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('1','NB2018082129711','3','0','0','','11','10','1','1','sssssssssssssssssssssssssssssssssssssssssssssssss','0','0','1534841773','model/images/201808/21/dtaoxf.jpg','model/images/201808/21/goods_dtaoxf.jpg','model/images/201808/21/thumb_dtaoxf.jpg')
+use light
+set names utf8
+select * from goods where goods_id=27
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,5,6) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,2,3) order by add_time desc limit 5
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=2
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=1
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('男士正裝','0','男士正裝')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('淑女洋裝','0','淑女洋裝')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('精品手錶','0','精品手錶')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('配飾','0','配飾')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+use light
+set names utf8
+select * from category
+update category set cat_name='男士正裝',intro='男士正裝',parent_id='0' where cat_id=1
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+use light
+set names utf8
+select * from category
+update category set cat_name='男士正裝',intro='男士正裝',parent_id='2' where cat_id=1
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+use light
+set names utf8
+select * from category
+update category set cat_name='男士正裝',intro='男士正裝',parent_id='0' where cat_id=1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('西裝','1','西裝')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('襯衫','1','襯衫')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('無袖洋裝','2','無袖洋裝')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('平口洋裝','2','平口洋裝')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('男士手錶','3','男士手錶')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('淑女手錶','3','淑女手錶')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('皮帶','4','皮帶')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('領帶','4','領帶')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+insert into category (cat_name,parent_id,intro) values ('新的','0','新的')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where parent_id =13
+delete from category where cat_id=13
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+update goods set is_delete='1' where goods_id=28
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+update goods set is_delete='1' where goods_id=28
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+update goods set is_delete='1' where goods_id=28
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=1
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082141633'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('英倫品味風範防潑水休閒獵裝_深藍','NB2018082141633','5','1200','1700','','10','10','1','1','西裝','0','0','1534858461','model/images/201808/21/lces83.jpg','model/images/201808/21/goods_lces83.jpg','model/images/201808/21/thumb_lces83.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082191126'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('英倫品味風範防潑水休閒獵裝_深藍','NB2018082191126','5','1200','1700','','10','10','1','1','西裝','0','0','1534858579','model/images/201808/21/f3zj1i.jpg','model/images/201808/21/goods_f3zj1i.jpg','model/images/201808/21/thumb_f3zj1i.jpg')
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=1
+select * from category
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082182428'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('都會休閒時尚獵裝_白色','NB2018082182428','5','1499','1899','','11','10','1','1','西裝','0','0','1534859880','model/images/201808/21/i9zs2u.jpg','model/images/201808/21/goods_i9zs2u.jpg','model/images/201808/21/thumb_i9zs2u.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082186348'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('雅致品味羊毛料西裝外套_深藍','NB2018082186348','5','1699','2099','','12','10','1','1','西裝','0','0','1534859934','model/images/201808/21/ijmt1h.jpg','model/images/201808/21/goods_ijmt1h.jpg','model/images/201808/21/thumb_ijmt1h.jpg')
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=1
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=3
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =5
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =4
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =27
+use light
+set names utf8
+use light
+set names utf8
+select * from goods where goods_id=3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+use light
+set names utf8
+select * from goods where goods_id=3
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=3
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =3
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082164634'
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082179675'
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082175014'
+use light
+set names utf8
+use light
+set names utf8
+use light
+set names utf8
+select count(*) from user where username='賴信澤'
+insert into user (username,email,passwd,regtime) values ('賴信澤','sunboy@yahoo.com.tw','b68afc03ca38ad47b88b555394231c40','1534870967')
+use light
+set names utf8
+use light
+set names utf8
+select user_id,username,email,passwd from user where username= '賴信澤'
+use light
+set names utf8
+use light
+set names utf8
+select count(*) from user where username='賴信澤'
+use light
+set names utf8
+select count(*) from user where username='賴信澤'
+insert into user (username,email,passwd,regtime) values ('賴信澤','apple07032000@yahoo.com.tw','b68afc03ca38ad47b88b555394231c40','1534871475')
+use light
+set names utf8
+select user_id,username,email,passwd from user where username= '賴信澤'
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=4
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=7
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (7) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=10
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (10) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+update goods set is_delete='1' where goods_id=28
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+update goods set is_delete='1' where goods_id=28
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+update goods set is_delete='1' where goods_id=28
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+select * from goods where is_delete = 1
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082189759'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('品味質男緹花修身襯衫_白色','NB2018082189759','6','1250','1880','','5','10','1','1','襯衫','0','0','1534873568','model/images/201808/21/tmuieh.jpg','model/images/201808/21/goods_tmuieh.jpg','model/images/201808/21/thumb_tmuieh.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082184882'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('質感品味提花純棉休閒襯衫_白色','NB2018082184882','6','1450','1900','','6','10','1','1','襯衫','0','0','1534873842','model/images/201808/21/d9x7t3.jpg','model/images/201808/21/goods_d9x7t3.jpg','model/images/201808/21/thumb_d9x7t3.jpg')
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082180714'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('簡斂奢華花紋休閒襯衫','NB2018082180714','6','1550','2050','','6','10','1','1','襯衫','0','0','1534873906','model/images/201808/21/sxd4ei.jpg','model/images/201808/21/goods_sxd4ei.jpg','model/images/201808/21/thumb_sxd4ei.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082122867'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('紅晶亮繡線緹花無袖打摺收腰洋裝','NB2018082122867','7','1550','2050','','11','10','1','1','洋裝','0','0','1534874025','model/images/201808/21/eoxg1c.jpg','model/images/201808/21/goods_eoxg1c.jpg','model/images/201808/21/thumb_eoxg1c.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082115044'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('白花朵美背無袖壓褶燕尾裙擺洋裝','NB2018082115044','7','1650','2199','','11','10','1','1','洋裝','0','0','1534874064','model/images/201808/21/ufxkgc.jpg','model/images/201808/21/goods_ufxkgc.jpg','model/images/201808/21/thumb_ufxkgc.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082148678'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('藏藍幾何碎塊緹花圓領無袖洋裝','NB2018082148678','7','2000','2540','','12','10','1','1','洋裝','0','0','1534874096','model/images/201808/21/ciabr7.jpg','model/images/201808/21/goods_ciabr7.jpg','model/images/201808/21/thumb_ciabr7.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=2
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=2
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=7
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (7) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=7
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (7) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=7
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (7) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082116133'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('一字領香肩顯瘦洋裝','NB2018082116133','8','1299','1499','','8','10','1','1','洋裝','0','0','1534874177','model/images/201808/21/hug635.jpg','model/images/201808/21/goods_hug635.jpg','model/images/201808/21/thumb_hug635.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082156521'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('一字領綁帶荷葉邊印花連衣裙','NB2018082156521','8','1399','1599','','8','10','1','1','洋裝','0','0','1534874416','model/images/201808/21/q67p81.jpg','model/images/201808/21/goods_q67p81.jpg','model/images/201808/21/thumb_q67p81.jpg')
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082149398'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('黑色平口交叉露肩收腰短裙洋裝','NB2018082149398','8','1599','1800','','9','10','1','1','洋裝','0','0','1534874493','model/images/201808/21/lw6gr7.jpg','model/images/201808/21/goods_lw6gr7.jpg','model/images/201808/21/thumb_lw6gr7.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082147732'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('太陽能潛水錶-黑金','NB2018082147732','9','2000','2500','','6','10','1','1','手錶','0','0','1534874563','model/images/201808/21/p12se9.jpg','model/images/201808/21/goods_p12se9.jpg','model/images/201808/21/thumb_p12se9.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082162654'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('愛海洋太陽能潛水時尚腕錶','NB2018082162654','9','2100','2700','','6','10','1','1','手錶','0','0','1534874593','model/images/201808/21/h2p16y.jpg','model/images/201808/21/goods_h2p16y.jpg','model/images/201808/21/thumb_h2p16y.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082157482'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('潛水機械錶','NB2018082157482','9','2500','3000','','9','10','1','1','手錶','0','0','1534874627','model/images/201808/21/6pvgjo.jpg','model/images/201808/21/goods_6pvgjo.jpg','model/images/201808/21/thumb_6pvgjo.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082114570'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('小牛皮優雅皮帶腕錶','NB2018082114570','10','2500','3000','','9','10','1','1','手錶','0','0','1534874653','model/images/201808/21/fy7m32.jpg','model/images/201808/21/goods_fy7m32.jpg','model/images/201808/21/thumb_fy7m32.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082118031'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('系列彩漾三眼計時女錶-銀x粉','NB2018082118031','10','2000','2800','','4','10','1','1','手錶','0','0','1534874696','model/images/201808/21/s1k6j0.jpg','model/images/201808/21/goods_s1k6j0.jpg','model/images/201808/21/thumb_s1k6j0.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082144574'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('櫻花粉紅限量鈦金屬電波女錶','NB2018082144574','10','2199','2899','','7','10','1','1','手錶','0','0','1534874732','model/images/201808/21/3xodqn.jpg','model/images/201808/21/goods_3xodqn.jpg','model/images/201808/21/thumb_3xodqn.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082194518'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('紳士皮帶','NB2018082194518','11','1199','1899','','3','10','1','1','皮帶','0','0','1534874786','model/images/201808/21/j7pof0.jpg','model/images/201808/21/goods_j7pof0.jpg','model/images/201808/21/thumb_j7pof0.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082199112'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('紳士霧面金屬釦頭穿式皮帶','NB2018082199112','11','1299','1899','','4','10','1','1','皮帶','0','0','1534874815','model/images/201808/21/bxk19q.jpg','model/images/201808/21/goods_bxk19q.jpg','model/images/201808/21/thumb_bxk19q.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082167382'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('義大利頭層牛皮','NB2018082167382','11','1099','1499','','3','10','1','1','皮帶','0','0','1534874845','model/images/201808/21/zwg0t7.jpg','model/images/201808/21/goods_zwg0t7.jpg','model/images/201808/21/thumb_zwg0t7.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082147069'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('菱格紋造型領帶(粉橘色)','NB2018082147069','12','1099','1499','','3','10','1','1','領帶','0','0','1534874931','model/images/201808/21/s5fy1l.jpg','model/images/201808/21/goods_s5fy1l.jpg','model/images/201808/21/thumb_s5fy1l.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082188422'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('緹花刺繡圖案絲質領帶','NB2018082188422','12','999','1299','','2','10','1','1','領帶','0','0','1534874964','model/images/201808/21/v7brq1.jpg','model/images/201808/21/goods_v7brq1.jpg','model/images/201808/21/thumb_v7brq1.jpg')
+use light
+set names utf8
+select * from category
+use light
+set names utf8
+select count(*) from goods where goods_sn = 'NB2018082166483'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,is_best,is_hot,add_time,ori_img,goods_img,thumb_img) values ('防潑水領帶_藍底圓點','NB2018082166483','12','899','1299','','1','10','1','1','領帶','0','0','1534875100','model/images/201808/21/ohjzip.jpg','model/images/201808/21/goods_ohjzip.jpg','model/images/201808/21/thumb_ohjzip.jpg')
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=12
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (12) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=11
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (11) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=10
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (10) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=9
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (9) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=8
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (8) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=7
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (7) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=6
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=5
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (5) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=1
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=24
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=21
+select * from category
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=4
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (4,11,12) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=7
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (7) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=10
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (10) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=18
+select * from category
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from category where cat_id=1
+select * from category
+select * from category
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where goods_id=6
+select * from category
+use light
+set names utf8
+select * from goods where goods_id=6
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+use light
+set names utf8
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+use light
+set names utf8
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id =6
+use light
+set names utf8
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5
+use light
+set names utf8
+select * from goods where is_delete = 0
+use light
+set names utf8
+select * from goods limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (2,7,8) order by add_time desc limit 5
+select * from category
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where cat_id in (1,5,6) order by add_time desc limit 5

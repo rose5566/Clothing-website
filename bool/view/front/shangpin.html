@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="ECSHOP v2.7.2">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<title><?php echo $g['goods_name'];?></title>
+<link rel="shortcut icon" href="http://www.zhongyis.com/favicon.ico">
+<link rel="icon" href="http://www.zhongyis.com/animated_favicon.gif" type="image/gif">
+<link href="./view/front/css/style.css" rel="stylesheet" type="text/css">
+<link href="./view/front/css/jqzoom.css" rel="stylesheet" type="text/css">
+</head>
+<body style="cursor: auto;">
+<div class="blockfull">
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+<div class="blank"></div>
+<link href="./view/front/css/greybox.css" rel="stylesheet" type="text/css" media="all">
+<link href="./view/front/css/polo.css" rel="stylesheet" type="text/css" media="all">
+</div>
+<div class="block clearfix">
+	<div class="layout_4">
+        
+        <div class="layout_right"> 
+		         當前位置: <a href="#">首頁</a> 
+                 
+            <?php foreach($nav as $c) { ?>
+            <code>&gt;</code> <a href="category.php?cat_id=<?php echo $c['cat_id'];?>"><?php echo $c['cat_name'];?></a>
+            <?php } ?>
+                 
+                 <code>&gt;</code>  <?php echo $g['goods_name'];?> 
+                 <div class="blank"></div>
+        
+        	<div class="shop_right_lib_comm" style="border-top:1px solid #e6e6e6">
+            	<div class="innerbox clearfix">
+                	<div class="goods_info">
+                    	<div class="polo_gallery f_l">
+                          
+					      <div class="goods_gallery">
+                            	<div class="gup" id="gleft"></div>
+                                <div class="gcontent" id="goods_gallery" style="overflow: hidden; width: 80px; height: 400px;">
+                                	<table>
+                                                                        <tbody><tr>
+                                    <td><div class="curr"><a href="#" onmouseover="sw_goodsimg(this)"><img src="<?php echo $g['thumb_img'];?> " alt=""></a></div></td>
+                                    </tr>
+                                                                        </tbody></table>
+                                </div>
+                                <div class="gdown" id="gright"></div>
+                            </div>
+                               <script type="text/javascript">								
+								var goods_gallery=new Marquee("goods_gallery");
+								goods_gallery.Direction="up";
+								goods_gallery.Step=0;
+								goods_gallery.Width=80;
+								goods_gallery.Height=400;
+								goods_gallery.Timer=20;
+								var turnleft = document.getElementById("gleft");
+								var turnright = document.getElementById("gright");
+								goods_gallery.Start();
+								turnleft.onmouseover=function(){goods_gallery.Direction=0}
+								turnleft.onmouseout=turnleft.onmouseup=function(){goods_gallery.Step=goods_gallery.BakStep}
+								turnleft.onmousedown=turnright.onmousedown=function(){goods_gallery.Step=goods_gallery.BakStep+10}
+								turnright.onmouseover=function(){goods_gallery.Direction=1}
+								turnright.onmouseout=turnright.onmouseup=function(){goods_gallery.Step=goods_gallery.BakStep}
+							    </script> 
+                                
+	                              
+                        </div>
+                    	<div class="goods_pics_polo f_l">
+                        	<div class="goods_big_img" style="position:relative; border:1px solid #e6e6e6">
+                             <a href="#" class="jqzoom" id="picbox" style="outline-style: none; cursor: crosshair; display: block; height: 400px; width: 300px;" title="">                        	
+                              <img src="<?php echo $g['goods_img'];?> " alt="" class="goodsimg" id="goods_bimg" style="position: absolute; top: 0px; left: 0px;" title="">                             </a>                             </div>
+                             <a style="line-height:25px; display:block; width:400px; height:20px; text-align:center;" href="#" ><img src="./view/front/images/biao3.gif">放大查詢圖片 </a>
+                          
+                             
+                             
+    		  </div>
+                    	
+                        <div class="goods_intro_polo f_r">
+                        	<div class="textInfo">
+     <form action="javascript:addToCart(315)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY">
+		 <div class="clearfix" style="font-size:14px; font-weight:bold;  color:#333">
+      <?php echo $g['goods_name'];?>    
+			</div>
+      <ul>
+       
+        <li class="clearfix">
+        <dd>
+                 
+        
+            
+       <div>
+       <strong>商品貨號：</strong><?php echo $g['goods_sn'];?>         </div>
+      
+         
+         </dd>
+        </li> 
+      
+      
+      
+      
+      
+      
+      
+      
+         
+      
+  
+             
+          
+       
+                   <li class="clearfix">
+       <dd>
+       <strong>本店售價：</strong><font class="shop1" id="ECS_SHOPPRICE">￥<?php echo $g['shop_price'];?>  元</font>
+        </dd>
+      </li>
+                     <li class="clearfix">
+       <dd>
+       <strong style="color:#999">市場價格：</strong><font class="market">￥<?php echo $g['market_price'];?>  元</font>
+         </dd>
+      </li>
+              
+       
+    
+      
+      
+      
+ 
+      
+      
+      
+        <li class="clearfix price_line">
+       <dd>
+              
+      <span> 
+       
+      <a style="color:#a10000" href="http://www.zhongyis.com/user.php?act=affiliate&amp;goodsid=315">分享</a>  | 
+        
+      <a style="color:#a10000; padding-left:5px;" href="javascript:collect(315)">暫存</a>
+      </span>
+       </dd>
+       </li>
+      
+      
+     
+  
+                 
+      
+                   
+            
+            <li class="padd">
+
+                        
+                        
+                        
+                        <input type="hidden" name="spec_list" value="9">
+                                                  </li>
+         
+      
+      
+      
+      
+      
+      
+      
+      
+      
+       <li class="clearfix">
+       <dd>
+       <strong>用戶評價：</strong>
+      <img src="./view/front/images/stars5.gif" alt="comment rank 5">
+       </dd>
+      </li>
+      
+      
+      
+       
+     
+      </ul>
+      
+      
+      
+       <ul class="bnt_bg clearfix">
+       <li>
+       <div class="f_l">
+<div style="_padding-top:17px;">
+       購買數量：<input type="text" name="number" id="number" value="1" size="4" onblur="changePrice()" style="border:1px solid #ccc; width:40px;">
+        </div>
+       </div>
+      <div class="f_l" style="padding-left:25px; border:none">
+       <strong style=" font-weight: bold; color:#666; ">商品總價：</strong><font id="ECS_GOODS_AMOUNT" class="shop">￥<?php echo $g['shop_price'];?>  元</font>
+      </div>
+    <div class="f_r">
+      <a href="flow.php?act=buy&goods_id=<?php echo $g['goods_id'];?>&num=1"><img src=""><input type="button" value="放入購物車"></a>
+     </div> 
+      </li>
+      </ul>
+      
+      
+      </form>
+     </div>
+
+                        </div>
+                    </div>
+                    <div class="blank"></div>
+                    
+                        
+						<div class="tabs clearfix">
+                        
+                        	<div class="tabItem f_l">
+                            <div style="font-size:14px; color:#999; font-weight:bold; border-bottom:1px solid #bebebe; padding-bottom:8px; padding-top:10px;"></div>
+                            <div class="blank"></div>
+                            <div>
+                               <?php echo $g['goods_desc'];?>  
+                            </div>
+                            </div>
+                        </div>
+                  
+                    
+       
+                     
+            	</div>
+            </div>
+			
+            
+            <!--
+             <div>
+			<div class="blank"></div>
+            <div class="f_l">
+             <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<table>
+                                                                                                        </table>
+             </div>
+             <div class="f_r" style="width:350px; ">
+             <div style="font-size:14px; font-weight:bold;">商品尺寸表</div>
+             <div style="height:100px; overflow-y:auto">
+				               </div>
+             </div>
+             <div class="blank"></div>
+			 </div>
+           -->
+             
+             <div class="layout_2 clearfix">
+	     
+             <div class="layout_right">
+            
+             
+             
+          
+             
+             
+             </div>
+             </div>
+        </div>
+    </div>
+    
+   
+    <div class="blank"></div>
+    
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>
+
+</body></html>

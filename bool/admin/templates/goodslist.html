@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ECSHOP 管理中心 - 商品列表 </title>
+<meta name="robots" c>
+<meta http-equiv="Content-Type" c />
+<link href="./styles/general.css" rel="stylesheet" type="text/css" />
+<link href="./styles/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h1>
+<span class="action-span"><a href="goodsadd.php">添加新商品</a></span>
+<span class="action-span1"><a href="#">ECSHOP 管理中心</a> </span><span id="search_id" class="action-span1"> - 商品列表 </span>
+<div style="clear:both"></div>
+</h1>
+
+<div class="form-div">
+</div>
+<form method="post" action="goodslist.php" name="listForm" >
+
+  <div class="list-div" id="listDiv">
+<table cellpadding="3" cellspacing="1">
+  <tr>
+    <th>
+      <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
+      <a href="#">編號</a><img src="./images/sort_desc.gif"/>    </th>
+
+    <th><a href="#">商品名稱</a></th>
+    <th><a href="#">貨號</a></th>
+    <th><a href="#">價格</a></th>
+
+        <th>操作</th>
+  <tr>
+    <?php foreach($goodlist as $k) { ?>
+    <tr>
+        <td><input type="checkbox" name="checkboxes[]" value="32" /><?php echo $k['goods_id']; ?></td>
+
+        <td class="first-cell" style=""><?php echo $k['goods_name']; ?><span ></span></td>
+        <td><span ><?php echo $k['goods_sn']; ?></span></td>
+        <td align="right"><span ><?php echo $k['shop_price']; ?></span></td>
+        <td align="center">
+            <a href="goodsltrash.php?goods_id=<?php echo $k['goods_id']; ?>"  title="回收站"><img src="./images/icon_trash.gif" width="16" height="16" border="0" /></a>       
+	</td>
+    </tr>
+    <?php } ?>
+        
+      </table>
+
+
+
+</div>
+</form>
+
+<div id="footer">
+服飾的後台商品管理<br />
+顯示商品資料。</div>
+</body>
+</html>

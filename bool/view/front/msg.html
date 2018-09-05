@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="ECSHOP v2.7.2">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+
+<title>系统提示</title>
+
+<link rel="shortcut icon" href="http://www.zhongyis.com/favicon.ico">
+<link rel="icon" href="http://www.zhongyis.com/animated_favicon.gif" type="image/gif">
+<link href="./view/front/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="blockfull">
+
+<!-- 包含頭部 -->
+<?php include(ROOT . 'view/front/header.html'); ?>
+
+      <script type="text/javascript">
+      //初始化主菜單
+		function sw_nav(obj,tag)
+		{
+
+			var subdivs = obj.getElementsByTagName("DIV");
+			var ifs = obj.getElementsByTagName("IFRAME");
+			
+			if(subdivs.length&gt;0)
+			{
+
+				if(tag==1)
+				{
+					subdivs[0].style.display = "block";
+					ifs[0].style.display = "block";
+				}
+				else
+				{
+					subdivs[0].style.display = "none";	
+					ifs[0].style.display = "none";
+				}
+				
+			}
+		}
+
+      </script>
+        
+         <script type="text/javascript">
+		
+		&lt;!--
+		function checkSearchForm()
+		{
+			if(document.getElementById('keyword').value)
+			{
+				return true;
+			}
+			else
+			{
+				alert("請輸入關鍵詞！");
+				return false;
+			}
+		}
+		--&gt;
+		
+		</script>
+        
+<div class="blank"></div>
+</div>
+
+
+<div class="block">
+  <div class="box">
+   <div class="box_1">
+    <h3><span>系统信息</span></h3>
+    <div align="center" class="boxCenterList RelaArticle">
+      <div style="margin:20px auto;">
+      <p style="font-size: 14px; font-weight:bold; color: red;">
+      <?php echo $msg; ?>
+      </p>
+        <div class="blank"></div>
+     </div>
+    </div>
+   </div>
+  </div>
+</div>
+<div class="blank"></div>
+<!-- 引入尾部 -->
+<?php include(ROOT . 'view/front/footer.html'); ?>
+</body>
+</html>
