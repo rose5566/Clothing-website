@@ -9,3 +9,13 @@
 ![image](https://github.com/rose5566/Clothing-website/blob/master/product/productnum.GIF)
 ##購物車每一個商品的顯示購買數量和價錢
 ![image](https://github.com/rose5566/Clothing-website/blob/master/product/productlist.GIF)
+##購物車選擇付款方式和填寫個人資料
+![image](https://github.com/rose5566/Clothing-website/blob/master/product/productman.GIF)
+##使用者登入畫面
+![image](https://github.com/rose5566/Clothing-website/blob/master/product/login.GIF)
+##使用者登入成功畫面顯示
+![image](https://github.com/rose5566/Clothing-website/blob/master/product/loginin.GIF)
+##後台的管理系統 可以管理編輯服飾(編輯服飾名稱、圖片、商品描述、價格等等)、服飾分類、精品選擇、和數量等等功能
+![image](https://github.com/rose5566/Clothing-website/blob/master/product/goods.GIF)
+
+![image](https://github.com/rose5566/Clothing-website/blob/master/product/adminlist.GIF)
